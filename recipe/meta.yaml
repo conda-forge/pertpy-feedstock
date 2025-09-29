@@ -27,7 +27,6 @@ requirements:
     - mudata
     - requests
     - scikit-misc
-    - scvi-tools
     - adjusttext
     - ott-jax
     - sparsecca
