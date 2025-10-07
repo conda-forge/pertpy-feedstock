@@ -39,6 +39,7 @@ requirements:
     - lamin_utils
     - arviz
     - filelock
+    - numpyro
 
 test:
   imports:
