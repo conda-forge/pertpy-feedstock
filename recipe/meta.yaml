@@ -38,6 +38,7 @@ requirements:
     - fast-array-utils
     - lamin_utils
     - arviz
+    - filelock
 
 test:
   imports:
