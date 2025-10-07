@@ -40,7 +40,7 @@ requirements:
     - arviz
     - filelock
     - numpyro
-    - flux
+    - flax
     - funsor
 
 test:
