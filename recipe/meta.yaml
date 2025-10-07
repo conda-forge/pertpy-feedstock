@@ -40,6 +40,8 @@ requirements:
     - arviz
     - filelock
     - numpyro
+    - flux
+    - funsor
 
 test:
   imports:
