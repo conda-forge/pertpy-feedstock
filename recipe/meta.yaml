@@ -1,6 +1,6 @@
 {% set name = "pertpy" %}
 {% set version = "1.0.4" %}
-{% set python_min = "3.11" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
