@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -36,7 +36,6 @@ requirements:
     - blitzgsea
     - scikit-learn >=1.4
     - fast-array-utils
-    - lamin_utils
     - arviz
     - filelock
     - numpyro
