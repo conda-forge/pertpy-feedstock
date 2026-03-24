@@ -36,7 +36,7 @@ requirements:
     - blitzgsea
     - scikit-learn >=1.4
     - fast-array-utils
-    - arviz
+    - arviz >=1.0.0
     - filelock
     - numpyro
     - flax
