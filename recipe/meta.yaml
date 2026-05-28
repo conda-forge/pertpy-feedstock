@@ -1,5 +1,5 @@
 {% set name = "pertpy" %}
-{% set version = "1.0.6" %}
+{% set version = "1.1.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pertpy-{{ version }}.tar.gz
-  sha256: 59f386e691121e2923ebb76824015c6b6520928981a7ab6a9ba3302e37f16065
+  sha256: 32a7904c7d0b9f9add0f0333e7ef3ec3063d0b6d13b80af6c03e75844e96b7ad
 
 build:
   noarch: python
@@ -37,10 +37,11 @@ requirements:
     - scikit-learn >=1.4
     - fast-array-utils
     - arviz >=1.0.0
-    - filelock
     - numpyro
     - flax
     - funsor
+    - pooch
+    - scverse-misc
 
 test:
   imports:
