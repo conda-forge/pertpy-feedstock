@@ -37,10 +37,11 @@ requirements:
     - scikit-learn >=1.4
     - fast-array-utils
     - arviz >=1.0.0
-    - filelock
     - numpyro
     - flax
     - funsor
+    - pooch
+    - scverse-misc
 
 test:
   imports:
