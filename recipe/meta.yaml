@@ -1,5 +1,5 @@
 {% set name = "pertpy" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pertpy-{{ version }}.tar.gz
-  sha256: 32a7904c7d0b9f9add0f0333e7ef3ec3063d0b6d13b80af6c03e75844e96b7ad
+  sha256: 11e30946f10abfc42722edaf00b06edd15d16465af502dd706538bac59f99924
 
 build:
   noarch: python
