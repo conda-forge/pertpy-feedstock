@@ -54,7 +54,7 @@ test:
     - pip
 
 about:
-  home: https://pertpy.readthedocs.io
+  home: https://pertpy.scverse.org
   summary: Perturbation Analysis in the scverse ecosystem.
   dev_url: https://github.com/scverse/pertpy
   license: MIT
