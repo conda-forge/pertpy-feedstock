@@ -1,5 +1,5 @@
 {% set name = "pertpy" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pertpy-{{ version }}.tar.gz
-  sha256: 1c0a9c828594122e2a6052e2a4823b66350b1f71db4cbe98106b1ab5dc5c31d1
+  sha256: 5d3f1558c79446d85fd544bca57d40020c00da627e03ac400abbda2622118f6c
 
 build:
   noarch: python
